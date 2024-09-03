@@ -1,7 +1,7 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import {Button, View} from 'react-native';
 
-const HelloWorldApp = () => {
+const app01 = () => {
   return (
     <View
       style={{
@@ -9,8 +9,8 @@ const HelloWorldApp = () => {
         justifyContent: 'center',
         alignItems: 'center',
       }}>
-      <Text>Olá mundo</Text>
+      <Button title='Click me'/>
     </View>
   );
 };
-export default HelloWorldApp;
+export default app01;
